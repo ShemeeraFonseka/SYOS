@@ -1,0 +1,236 @@
+.dashboard-container {
+  display: flex;
+  height: auto;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: green;
+  color: white;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+height: auto;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  height: 30px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.sidebar a.active {
+  background-color: red;
+  color: white;
+}
+
+.sidebar a:hover {
+  background-color: #db1616; 
+  color: white;
+}
+
+.sidebar h2 {
+  margin-bottom: 1rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.sidebar a {
+  color: #f5f5f5;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  flex-grow: 1;
+  gap: 2rem;
+}
+
+.mainorder-content {
+  display: flex;
+  padding: 2rem;
+  flex-grow: 1;
+  gap: 2rem;
+}
+
+.form-section {
+  flex: 1;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.checkout-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 20px;
+}
+
+.table-section {
+  flex: 2;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #eaf5ed;
+}
+
+th,
+td {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.billmodal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.billmodal-content {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.billmodal-content h2,
+.modal-content h3 {
+  margin-top: 0;
+}
+
+.billmodal-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.billmodal-content th,
+.modal-content td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.billmodal-content button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.addbutton {
+  background-color: red;
+  color: rgb(255, 255, 255);
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: scale 0.2 ease;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  height: 40px;
+}
+
+.addbutton:hover {
+    scale: 1.05;
+    color: #ffffff;
+}
+
+.orderbutton{
+  background-color: green;
+  color: rgb(255, 255, 255);
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: scale 0.2 ease;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  height: 40px;
+  width: 300px;
+}
+
+.orderbutton:hover {
+    scale: 1.05;
+    color: #ffffff;
+}
+
+.item-input {
+    width: 100%;
+    padding: 1rem 1rem;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 12px;
+     height: 20px;
+}
+
+.select-input{
+  width: 100%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 12px;
+     height: 40px;
+}
+.buttoncontainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.billtopic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.closebutton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

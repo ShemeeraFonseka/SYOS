@@ -1,0 +1,133 @@
+<web-app>
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>controller.RegisterServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>controller.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ItemServlet</servlet-name>
+        <servlet-class>controller.ItemServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ItemServlet</servlet-name>
+        <url-pattern>/items</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OrderServlet</servlet-name>
+        <servlet-class>controller.OrderServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>OrderServlet</servlet-name>
+        <url-pattern>/orders</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BillServlet</servlet-name>
+        <servlet-class>controller.BillServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>BillServlet</servlet-name>
+        <url-pattern>/bill</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BatchServlet</servlet-name>
+        <servlet-class>controller.BatchServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>BatchServlet</servlet-name>
+        <url-pattern>/addbatch</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SalesReportServlet</servlet-name>
+        <servlet-class>controller.SalesReportServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SalesReportServlet</servlet-name>
+        <url-pattern>/salesreport</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OnsiteSalesReportServlet</servlet-name>
+        <servlet-class>controller.OnsiteSalesReportServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>OnsiteSalesReportServlet</servlet-name>
+        <url-pattern>/onsitesalesreport</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OnlineReshelveReportServlet</servlet-name>
+        <servlet-class>controller.OnlineReshelveReportServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>OnlineReshelveReportServlet</servlet-name>
+        <url-pattern>/onlinereshelvereport</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OnsiteReshelveReportServlet</servlet-name>
+        <servlet-class>controller.OnsiteReshelveReportServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>OnsiteReshelveReportServlet</servlet-name>
+        <url-pattern>/onsitereshelvereport</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReorderLevelReportServlet</servlet-name>
+        <servlet-class>controller.ReorderLevelReportServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ReorderLevelReportServlet</servlet-name>
+        <url-pattern>/reorderlevelreport</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>StockReportServlet</servlet-name>
+        <servlet-class>controller.StockReportServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>StockReportServlet</servlet-name>
+        <url-pattern>/stockreport</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BillReportServlet</servlet-name>
+        <servlet-class>controller.BillReportServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>BillReportServlet</servlet-name>
+        <url-pattern>/billreport</url-pattern>
+    </servlet-mapping>
+
+</web-app>

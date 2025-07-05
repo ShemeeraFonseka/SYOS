@@ -1,0 +1,125 @@
+/* Main container styles */
+.checkout-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    margin-top: 80px;
+}
+
+/* Table styles */
+.bill-details {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.bill-topic{
+    font-size: 18px;
+}
+
+.bill-details table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+
+
+
+.bill-details th, .bill-details td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.bill-details th {
+    background-color: #4AA428;
+    color: #ffffff;
+}
+
+/* Product image styles */
+.bill-details .product-image {
+    width: 70px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Total amount styles */
+.bill-details .bill-total {
+    margin-top: 20px;
+}
+
+.bill-details .bill-total h2 {
+    margin: 0;
+}
+
+/* Delivery form styles */
+.delivery-form {
+    flex: 1;
+    margin-left: 20px;
+
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #c4c1c1;
+    font-size: 14px;
+
+}
+
+.check_btn{
+    background-color: green;
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+  }
+  
+  .check_btn:hover{
+    scale: 1.05;
+    color: #ffffff;
+  }
+  
+  .check_btn:active{
+    scale: 0.95;
+  }
+  
+
+.tot{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.button-container {
+    text-align: center;
+}
+
+@media only screen and (max-width: 966px) {
+    .checkout-container {
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+        
+    }
+    
+}

@@ -1,0 +1,52 @@
+.item-input {
+    width: 100%;
+    padding: 1rem 1rem;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 12px;
+     height: 20px;
+}
+
+.msg-input {
+    width: 100%;
+    padding: 1rem 1rem;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 12px;
+     height: 200px;
+}
+
+.sendbutton{
+  background-color: green;
+  color: rgb(255, 255, 255);
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: scale 0.2 ease;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  height: 40px;
+  width: 300px;
+}
+
+.sendbutton:hover {
+    scale: 1.05;
+    color: #ffffff;
+}
+
+.buttoncontainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map{
+    width: 600px;
+    height: 400px;
+}

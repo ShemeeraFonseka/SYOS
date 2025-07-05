@@ -1,0 +1,18 @@
+.images{
+    width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px; 
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutcontent{
+    font-size: 18px;
+    line-height: 40px;
+    text-align: justify;
+}

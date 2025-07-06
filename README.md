@@ -90,8 +90,4 @@ cd syos-frontend
 npm install
 npm start
 
-### 📌 Note
-This project is not currently deployed online. It requires local setup for frontend, backend, and MySQL database.
 
-### 📚 Documentation
-You can find detailed architecture, concurrency, testing, and screenshots in the project report.

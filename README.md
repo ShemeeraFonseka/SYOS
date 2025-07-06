@@ -69,3 +69,27 @@ Follows the **MVC pattern** with clear separation of concerns:
 - MySQL Server
 
 ### 📁 Folder Structure:
+
+/syos-frontend → React frontend
+/syos-backend → Java Servlet backend
+/database → SQL scripts for MySQL
+
+
+### 1️⃣ Backend Setup (Java Servlets)
+1. Import `syos-backend` into your IDE (e.g., IntelliJ or Eclipse).
+2. Configure Apache Tomcat as the server.
+3. Set up your database using the provided SQL script in `/database`.
+4. Update DB credentials in the `DBConnection` class.
+5. Run the server.
+
+### 2️⃣ Frontend Setup (React)
+```bash
+cd syos-frontend
+npm install
+npm start
+
+📌 Note
+This project is not currently deployed online. It requires local setup for frontend, backend, and MySQL database.
+
+📚 Documentation
+You can find detailed architecture, concurrency, testing, and screenshots in the project report.

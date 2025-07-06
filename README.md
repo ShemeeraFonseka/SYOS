@@ -71,7 +71,9 @@ Follows the **MVC pattern** with clear separation of concerns:
 ### 📁 Folder Structure:
 
 /syos-frontend → React frontend
+
 /syos-backend → Java Servlet backend
+
 /database → SQL scripts for MySQL
 
 
@@ -88,8 +90,8 @@ cd syos-frontend
 npm install
 npm start
 
-📌 Note
+### 📌 Note
 This project is not currently deployed online. It requires local setup for frontend, backend, and MySQL database.
 
-📚 Documentation
+### 📚 Documentation
 You can find detailed architecture, concurrency, testing, and screenshots in the project report.
